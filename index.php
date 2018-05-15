@@ -15,30 +15,31 @@
 <hr>
   <?php
     $genre = "homme";
+    $age = 18;
     if
     ($genre != "homme";)
     {echo "Vous êtes une femme";}
     else
     (echo "vous êtes un homme";)
-    $age = 18;
+
     if
-    ($age < 18)
+    ($age >= 18)
     {echo "vous êtes majeur";}
     else
     {echo"vous êtes mineur";}
   ?>
 <hr>
   <?php
-    $maVariable="Homme";
+    $maVariable ="homme";
     if
-    ($maVariable!="Homme";)
+    ($maVariable =="homme";)
     {echo "C'est une développeur!!!";}
     else
     {echo "C'est une développeuse !!!";}
   ?>
 <hr>
 <?php
-  $monAge = 18;
+  $monAge = 13;
   if ($monAge >= 18)
   {echo "tu es majeur";}
   else
