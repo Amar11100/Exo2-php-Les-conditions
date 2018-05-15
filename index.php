@@ -1,35 +1,48 @@
+<!DOCTYPE>
+<html>
+<title>Exercice2</title>
+<meta  charset="UTF-8">
+</head>
 <body>
   <?php
-$age = 18;
-if ($age >= 18)
-{echo "Vous êtes majeur";}
-else
-{echo "Vous êtes mineur";}
+    $age = 18;
+    if ($age >= 18)
+    {echo "Vous êtes majeur";}
+    else
+    {echo "Vous êtes mineur";}
   ?>
 <hr>
   <?php
-  $age = 30;
-  $genre = "homme";
-  $age = 17;
-  $genre = "femme";
-  if($age >= 18 && $genre == "homme";)
-  {echo "Vous êtes un homme majeur";}
-  else ($age < 18 && $genre == "homme";)
-  {echo "Vous es un homme mineur";}
-  if ($age < 18 && $genre == "femme";)
-  {echo "Vous êtes une femme mineur";}
-  else ($age >= 18 && $genre == "femme";)
-  {echo "Vous êtes une femme majeur";}
+    $genre = "homme";
+    if
+    ($genre != "homme";)
+    {echo "Vous êtes une femme";}
+    else
+    (echo "vous êtes un homme";)
+    $age = 18;
+    if
+    ($age < 18)
+    {echo "vous êtes majeur";}
+    else
+    {echo"vous êtes mineur";}
   ?>
-  <hr>
+<hr>
   <?php
     $maVariable="Homme";
-    $maVariable = "Femme";
-    if($maVariable="Homme";)
+    if
+    ($maVariable!="Homme";)
+    {echo "C'est une développeuse!!!";}
+    else
     {echo "C'est un développeur !!!";}
-    else ($maVariable = "Femme";)
-    {echo "C'est une développeuse !!!";}
   ?>
+<hr>
+  <?php
+    $maVariable = true;
+    if($maVariable == true)
+    {echo "C'est bon";}
+    else
+    {echo "C'est pas bon";}
+   ?>
 
 </body>
 </html>
