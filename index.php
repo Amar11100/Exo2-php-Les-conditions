@@ -1,5 +1,6 @@
 <!DOCTYPE>
 <html>
+<head>
 <title>Exercice2</title>
 <meta  charset="UTF-8">
 </head>
@@ -31,9 +32,9 @@
     $maVariable="Homme";
     if
     ($maVariable!="Homme";)
-    {echo "C'est une développeuse!!!";}
+    {echo "C'est une développeur!!!";}
     else
-    {echo "C'est un développeur !!!";}
+    {echo "C'est une développeuse !!!";}
   ?>
 <hr>
   <?php
